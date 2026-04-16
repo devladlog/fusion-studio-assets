@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e2e"/>
+      <stop offset="100%" style="stop-color:#2d2d44"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4aa"/>
+      <stop offset="100%" style="stop-color:#00a8e8"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="150" r="80" fill="url(#accent)" opacity="0.1"/>
+  <circle cx="1100" cy="150" r="120" fill="url(#accent)" opacity="0.08"/>
+  <circle cx="600" cy="50" r="200" fill="url(#accent)" opacity="0.05"/>
+  
+  <!-- Logo placeholder -->
+  <rect x="60" y="100" width="80" height="80" rx="16" fill="url(#accent)"/>
+  <text x="100" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="bold" fill="#1e1e2e" text-anchor="middle" dominant-baseline="middle">FS</text>
+  
+  <!-- Title -->
+  <text x="170" y="125" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">Fusion Studio</text>
+  
+  <!-- Tagline -->
+  <text x="170" y="170" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#a0a0b0">Power Apps Studio inside VS Code</text>
+  <text x="170" y="195" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#00d4aa">with engineering super-powers</text>
+  
+  <!-- Feature icons -->
+  <g transform="translate(850, 100)">
+    <!-- AI icon -->
+    <rect x="0" y="0" width="50" height="50" rx="8" fill="#00d4aa" opacity="0.2"/>
+    <text x="25" y="35" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#00d4aa" text-anchor="middle">AI</text>
+    
+    <!-- Git icon -->
+    <rect x="60" y="0" width="50" height="50" rx="8" fill="#f97316" opacity="0.2"/>
+    <text x="85" y="35" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#f97316" text-anchor="middle">Git</text>
+    
+    <!-- Code icon -->
+    <rect x="120" y="0" width="50" height="50" rx="8" fill="#8b5cf6" opacity="0.2"/>
+    <text x="145" y="35" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#8b5cf6" text-anchor="middle">Fx</text>
+    
+    <!-- Data icon -->
+    <rect x="180" y="0" width="50" height="50" rx="8" fill="#3b82f6" opacity="0.2"/>
+    <text x="205" y="35" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#3b82f6" text-anchor="middle">DB</text>
+  </g>
+  
+  <!-- Bottom accent line -->
+  <rect x="0" y="290" width="1200" height="10" fill="url(#accent)"/>
+</svg>

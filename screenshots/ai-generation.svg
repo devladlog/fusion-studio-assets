@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#744da9"/>
+      <stop offset="100%" style="stop-color:#0078d4"/>
+    </linearGradient>
+    <pattern id="headerPattern" patternUnits="userSpaceOnUse" width="60" height="60">
+      <path d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="700" fill="#1e1e1e"/>
+  
+  <!-- Header -->
+  <rect width="900" height="90" fill="url(#gradient)"/>
+  <rect width="900" height="90" fill="url(#headerPattern)"/>
+  
+  <!-- Header icon -->
+  <rect x="24" y="21" width="48" height="48" rx="12" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="48" y="52" font-family="Segoe UI, Arial" font-size="24" fill="#ffffff" text-anchor="middle">🤖</text>
+  
+  <!-- Header text -->
+  <text x="90" y="45" font-family="Segoe UI, Arial" font-size="22" fill="#ffffff" font-weight="700">AI Generation</text>
+  <text x="90" y="68" font-family="Segoe UI, Arial" font-size="13" fill="rgba(255,255,255,0.8)">Generate Power Apps from documents, mockups, or instructions</text>
+  
+  <!-- GPT Badge -->
+  <rect x="790" y="30" width="85" height="30" rx="15" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="832" y="50" font-family="Segoe UI, Arial" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700">GPT-4</text>
+  
+  <!-- Tab buttons -->
+  <rect x="24" y="110" width="140" height="40" rx="8" fill="url(#gradient)"/>
+  <text x="94" y="136" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">📄 Document</text>
+  
+  <rect x="174" y="110" width="140" height="40" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="244" y="136" font-family="Segoe UI, Arial" font-size="13" fill="#969696" text-anchor="middle">🖼️ Mockup</text>
+  
+  <rect x="324" y="110" width="140" height="40" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="394" y="136" font-family="Segoe UI, Arial" font-size="13" fill="#969696" text-anchor="middle">💬 Instructions</text>
+  
+  <!-- Upload Card -->
+  <rect x="24" y="170" width="852" height="200" rx="16" fill="#252526" stroke="#0078d4" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- Upload content -->
+  <text x="450" y="235" font-family="Segoe UI, Arial" font-size="48" fill="#969696" text-anchor="middle">📁</text>
+  <text x="450" y="280" font-family="Segoe UI, Arial" font-size="18" fill="#cccccc" text-anchor="middle">Drop your document here</text>
+  <text x="450" y="305" font-family="Segoe UI, Arial" font-size="13" fill="#969696" text-anchor="middle">Supports: .md, .txt, .pdf, .docx</text>
+  
+  <!-- Browse button -->
+  <rect x="380" y="325" width="140" height="40" rx="10" fill="#0078d4"/>
+  <text x="450" y="351" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="600">Browse Files</text>
+  
+  <!-- Options Card -->
+  <rect x="24" y="390" width="852" height="180" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="24" y="390" width="852" height="45" rx="16" fill="#2d2d30"/>
+  <rect x="24" y="419" width="852" height="16" fill="#2d2d30"/>
+  <rect x="24" y="434" width="852" height="1" fill="#454545"/>
+  <text x="44" y="419" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" font-weight="700" letter-spacing="0.5">GENERATION OPTIONS</text>
+  
+  <!-- Option fields -->
+  <text x="44" y="475" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" font-weight="600">App Type</text>
+  <rect x="44" y="485" width="250" height="40" rx="10" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="60" y="511" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">Canvas App</text>
+  <text x="270" y="511" font-family="Segoe UI, Arial" font-size="14" fill="#969696">▼</text>
+  
+  <text x="320" y="475" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" font-weight="600">Theme</text>
+  <rect x="320" y="485" width="250" height="40" rx="10" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="336" y="511" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">Modern Dark</text>
+  <text x="546" y="511" font-family="Segoe UI, Arial" font-size="14" fill="#969696">▼</text>
+  
+  <text x="596" y="475" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" font-weight="600">Data Source</text>
+  <rect x="596" y="485" width="258" height="40" rx="10" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="612" y="511" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">Dataverse</text>
+  <text x="830" y="511" font-family="Segoe UI, Arial" font-size="14" fill="#969696">▼</text>
+  
+  <!-- Include options -->
+  <text x="44" y="555" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" font-weight="600">Include Components</text>
+  
+  <rect x="44" y="565" width="100" height="30" rx="6" fill="#744da9" opacity="0.3" stroke="#744da9" stroke-width="1"/>
+  <text x="94" y="585" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">✓ Forms</text>
+  
+  <rect x="154" y="565" width="100" height="30" rx="6" fill="#744da9" opacity="0.3" stroke="#744da9" stroke-width="1"/>
+  <text x="204" y="585" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">✓ Gallery</text>
+  
+  <rect x="264" y="565" width="110" height="30" rx="6" fill="#744da9" opacity="0.3" stroke="#744da9" stroke-width="1"/>
+  <text x="319" y="585" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">✓ Navigation</text>
+  
+  <rect x="384" y="565" width="100" height="30" rx="6" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="434" y="585" font-family="Segoe UI, Arial" font-size="12" fill="#969696" text-anchor="middle">Charts</text>
+  
+  <rect x="494" y="565" width="100" height="30" rx="6" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="544" y="585" font-family="Segoe UI, Arial" font-size="12" fill="#969696" text-anchor="middle">Search</text>
+  
+  <!-- Generate Button -->
+  <rect x="24" y="595" width="852" height="55" rx="12" fill="url(#gradient)"/>
+  <text x="450" y="630" font-family="Segoe UI, Arial" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="700">✨ Generate Power App</text>
+  
+  <!-- Footer note -->
+  <text x="450" y="680" font-family="Segoe UI, Arial" font-size="12" fill="#969696" text-anchor="middle">Generation uses Azure OpenAI GPT-4 • Results will appear in a new panel</text>
+</svg>

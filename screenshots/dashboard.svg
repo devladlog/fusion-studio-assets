@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#744da9"/>
+      <stop offset="100%" style="stop-color:#0078d4"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0078d4"/>
+      <stop offset="100%" style="stop-color:#106ebe"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#744da9"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16825d"/>
+      <stop offset="100%" style="stop-color:#22c55e"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#b5651d"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <pattern id="headerPattern" patternUnits="userSpaceOnUse" width="60" height="60">
+      <path d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#1e1e1e"/>
+  
+  <!-- Header with gradient -->
+  <rect x="24" y="24" width="1152" height="140" rx="16" fill="url(#gradient)"/>
+  <rect x="24" y="24" width="1152" height="140" rx="16" fill="url(#headerPattern)"/>
+  
+  <!-- Header content -->
+  <text x="600" y="75" font-family="Segoe UI, Arial" font-size="48" fill="#ffffff" text-anchor="middle" font-weight="700">Fusion Studio</text>
+  <text x="600" y="110" font-family="Segoe UI, Arial" font-size="16" fill="rgba(255,255,255,0.85)" text-anchor="middle">Power Apps Studio inside VS Code</text>
+  <text x="600" y="135" font-family="Segoe UI, Arial" font-size="16" fill="rgba(255,255,255,0.85)" text-anchor="middle">with engineering super-powers</text>
+  
+  <!-- Status Bar -->
+  <!-- Environment Status -->
+  <rect x="24" y="184" width="370" height="70" rx="12" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="44" y="199" width="40" height="40" rx="10" fill="rgba(0,120,212,0.2)"/>
+  <text x="64" y="225" font-family="Segoe UI, Arial" font-size="20" fill="#0078d4" text-anchor="middle">🌐</text>
+  <text x="104" y="215" font-family="Segoe UI, Arial" font-size="12" fill="#969696" text-transform="uppercase">ENVIRONMENT</text>
+  <text x="104" y="235" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" font-weight="500">Development</text>
+  
+  <!-- Studio Status -->
+  <rect x="414" y="184" width="370" height="70" rx="12" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="434" y="199" width="40" height="40" rx="10" fill="rgba(116,77,169,0.2)"/>
+  <text x="454" y="225" font-family="Segoe UI, Arial" font-size="20" fill="#744da9" text-anchor="middle">🎨</text>
+  <text x="494" y="215" font-family="Segoe UI, Arial" font-size="12" fill="#969696">STUDIO</text>
+  <text x="494" y="235" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" font-weight="500">Ready</text>
+  
+  <!-- Git Status -->
+  <rect x="804" y="184" width="372" height="70" rx="12" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="824" y="199" width="40" height="40" rx="10" fill="rgba(22,130,93,0.2)"/>
+  <text x="844" y="225" font-family="Segoe UI, Arial" font-size="20" fill="#16825d" text-anchor="middle">📁</text>
+  <text x="884" y="215" font-family="Segoe UI, Arial" font-size="12" fill="#969696">GIT STATUS</text>
+  <text x="884" y="235" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" font-weight="500">Clean - main</text>
+  
+  <!-- Quick Actions Title -->
+  <text x="24" y="295" font-family="Segoe UI, Arial" font-size="20" fill="#ffffff" font-weight="600">⚡ Quick Actions</text>
+  
+  <!-- Quick Action Buttons -->
+  <rect x="24" y="310" width="180" height="50" rx="10" fill="#0078d4"/>
+  <text x="114" y="342" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="500">🚀 Open Studio</text>
+  
+  <rect x="214" y="310" width="180" height="50" rx="10" fill="#744da9"/>
+  <text x="304" y="342" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="500">🤖 AI Generate</text>
+  
+  <rect x="404" y="310" width="180" height="50" rx="10" fill="#16825d"/>
+  <text x="494" y="342" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="500">📦 Unpack App</text>
+  
+  <rect x="594" y="310" width="180" height="50" rx="10" fill="#b5651d"/>
+  <text x="684" y="342" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="500">💬 AI Copilot</text>
+  
+  <!-- Feature Cards Title -->
+  <text x="24" y="410" font-family="Segoe UI, Arial" font-size="20" fill="#ffffff" font-weight="600">🎯 Features</text>
+  
+  <!-- Feature Card 1: Studio Integration -->
+  <rect x="24" y="430" width="370" height="180" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="44" y="454" width="48" height="48" rx="12" fill="url(#blueGrad)"/>
+  <text x="68" y="485" font-family="Segoe UI, Arial" font-size="24" fill="#ffffff" text-anchor="middle">🎨</text>
+  <text x="108" y="475" font-family="Segoe UI, Arial" font-size="18" fill="#ffffff" font-weight="600">Studio Integration</text>
+  <text x="44" y="525" font-family="Segoe UI, Arial" font-size="14" fill="#969696">Full Power Apps Studio embedded</text>
+  <text x="44" y="545" font-family="Segoe UI, Arial" font-size="14" fill="#969696">in VS Code with corporate SSO</text>
+  <rect x="44" y="565" width="100" height="32" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="94" y="586" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc" text-anchor="middle">Open Studio</text>
+  
+  <!-- Feature Card 2: AI Generation -->
+  <rect x="414" y="430" width="370" height="180" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="434" y="454" width="48" height="48" rx="12" fill="url(#purpleGrad)"/>
+  <text x="458" y="485" font-family="Segoe UI, Arial" font-size="24" fill="#ffffff" text-anchor="middle">🤖</text>
+  <text x="498" y="475" font-family="Segoe UI, Arial" font-size="18" fill="#ffffff" font-weight="600">AI Generation</text>
+  <text x="434" y="525" font-family="Segoe UI, Arial" font-size="14" fill="#969696">Generate apps from documents,</text>
+  <text x="434" y="545" font-family="Segoe UI, Arial" font-size="14" fill="#969696">mockups, or natural language</text>
+  <rect x="434" y="565" width="85" height="32" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="476" y="586" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc" text-anchor="middle">From Doc</text>
+  <rect x="529" y="565" width="95" height="32" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="576" y="586" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc" text-anchor="middle">From Image</text>
+  
+  <!-- Feature Card 3: Dataverse -->
+  <rect x="804" y="430" width="372" height="180" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="824" y="454" width="48" height="48" rx="12" fill="url(#greenGrad)"/>
+  <text x="848" y="485" font-family="Segoe UI, Arial" font-size="24" fill="#ffffff" text-anchor="middle">🗃️</text>
+  <text x="888" y="475" font-family="Segoe UI, Arial" font-size="18" fill="#ffffff" font-weight="600">Dataverse Designer</text>
+  <text x="824" y="525" font-family="Segoe UI, Arial" font-size="14" fill="#969696">Create and manage tables with</text>
+  <text x="824" y="545" font-family="Segoe UI, Arial" font-size="14" fill="#969696">visual designer interface</text>
+  <rect x="824" y="565" width="115" height="32" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="881" y="586" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc" text-anchor="middle">Open Designer</text>
+  
+  <!-- Feature Card 4: PowerFx -->
+  <rect x="24" y="630" width="370" height="180" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="44" y="654" width="48" height="48" rx="12" fill="url(#orangeGrad)"/>
+  <text x="68" y="685" font-family="Segoe UI, Arial" font-size="24" fill="#ffffff" text-anchor="middle">⚡</text>
+  <text x="108" y="675" font-family="Segoe UI, Arial" font-size="18" fill="#ffffff" font-weight="600">PowerFx Analysis</text>
+  <text x="44" y="725" font-family="Segoe UI, Arial" font-size="14" fill="#969696">Tokenizer, parser, analyzer with</text>
+  <text x="44" y="745" font-family="Segoe UI, Arial" font-size="14" fill="#969696">12 linting rules for best practices</text>
+  <rect x="44" y="765" width="70" height="32" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="79" y="786" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc" text-anchor="middle">Lint</text>
+  <rect x="124" y="765" width="85" height="32" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="166" y="786" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc" text-anchor="middle">Analyze</text>
+  
+  <!-- Feature Card 5: Flow Designer -->
+  <rect x="414" y="630" width="370" height="180" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="434" y="654" width="48" height="48" rx="12" fill="url(#blueGrad)"/>
+  <text x="458" y="685" font-family="Segoe UI, Arial" font-size="24" fill="#ffffff" text-anchor="middle">🔄</text>
+  <text x="498" y="675" font-family="Segoe UI, Arial" font-size="18" fill="#ffffff" font-weight="600">Flow Designer</text>
+  <text x="434" y="725" font-family="Segoe UI, Arial" font-size="14" fill="#969696">Design Power Automate flows</text>
+  <text x="434" y="745" font-family="Segoe UI, Arial" font-size="14" fill="#969696">with visual canvas interface</text>
+  <rect x="434" y="765" width="115" height="32" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="491" y="786" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc" text-anchor="middle">Open Designer</text>
+  
+  <!-- Feature Card 6: Git Integration -->
+  <rect x="804" y="630" width="372" height="180" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+  <rect x="824" y="654" width="48" height="48" rx="12" fill="url(#greenGrad)"/>
+  <text x="848" y="685" font-family="Segoe UI, Arial" font-size="24" fill="#ffffff" text-anchor="middle">📚</text>
+  <text x="888" y="675" font-family="Segoe UI, Arial" font-size="18" fill="#ffffff" font-weight="600">Git Integration</text>
+  <text x="824" y="725" font-family="Segoe UI, Arial" font-size="14" fill="#969696">Power Apps-specific commits,</text>
+  <text x="824" y="745" font-family="Segoe UI, Arial" font-size="14" fill="#969696">feature branches, CI/CD ready</text>
+  <rect x="824" y="765" width="80" height="32" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="864" y="786" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc" text-anchor="middle">Commit</text>
+  <rect x="914" y="765" width="70" height="32" rx="8" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="949" y="786" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc" text-anchor="middle">Push</text>
+  
+  <!-- Version badge -->
+  <text x="1152" y="880" font-family="Segoe UI, Arial" font-size="12" fill="#969696" text-anchor="end">Fusion Studio v0.3.0</text>
+</svg>

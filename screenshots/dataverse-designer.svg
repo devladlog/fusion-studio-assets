@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox="0 0 1000 800">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#744da9"/>
+      <stop offset="100%" style="stop-color:#0078d4"/>
+    </linearGradient>
+    <pattern id="headerPattern" patternUnits="userSpaceOnUse" width="60" height="60">
+      <path d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#1e1e1e"/>
+  
+  <!-- Header -->
+  <rect width="1000" height="90" fill="url(#gradient)"/>
+  <rect width="1000" height="90" fill="url(#headerPattern)"/>
+  
+  <!-- Header icon -->
+  <rect x="24" y="21" width="48" height="48" rx="12" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="48" y="52" font-family="Segoe UI, Arial" font-size="24" fill="#ffffff" text-anchor="middle">🗃️</text>
+  
+  <!-- Header text -->
+  <text x="90" y="45" font-family="Segoe UI, Arial" font-size="22" fill="#ffffff" font-weight="700">Dataverse Designer</text>
+  <text x="90" y="68" font-family="Segoe UI, Arial" font-size="13" fill="rgba(255,255,255,0.8)">Design production-ready table schemas</text>
+  
+  <!-- Badge -->
+  <rect x="860" y="30" width="115" height="30" rx="15" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="917" y="50" font-family="Segoe UI, Arial" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700" letter-spacing="0.5">FUSION STUDIO</text>
+  
+  <!-- Table Definition Card -->
+  <rect x="24" y="114" width="952" height="160" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+  
+  <!-- Card header -->
+  <rect x="24" y="114" width="952" height="45" rx="16" fill="#2d2d30"/>
+  <rect x="24" y="143" width="952" height="16" fill="#2d2d30"/>
+  <rect x="24" y="158" width="952" height="1" fill="#454545"/>
+  <text x="44" y="143" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" font-weight="700" letter-spacing="0.5">TABLE DEFINITION</text>
+  
+  <!-- Form fields -->
+  <text x="44" y="195" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" font-weight="600">Display Name <tspan fill="#f14c4c">*</tspan></text>
+  <rect x="44" y="205" width="430" height="40" rx="10" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="60" y="231" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">Project Task</text>
+  
+  <text x="504" y="195" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" font-weight="600">Schema Name <tspan fill="#f14c4c">*</tspan></text>
+  <rect x="504" y="205" width="450" height="40" rx="10" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="520" y="231" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">cr_projecttask</text>
+  <text x="504" y="258" font-family="Segoe UI, Arial" font-size="11" fill="#969696">Prefix with your publisher prefix (e.g. cr_)</text>
+  
+  <!-- Columns Card -->
+  <rect x="24" y="294" width="952" height="390" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+  
+  <!-- Card header -->
+  <rect x="24" y="294" width="952" height="45" rx="16" fill="#2d2d30"/>
+  <rect x="24" y="323" width="952" height="16" fill="#2d2d30"/>
+  <rect x="24" y="338" width="952" height="1" fill="#454545"/>
+  <text x="44" y="323" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff" font-weight="700" letter-spacing="0.5">COLUMNS</text>
+  <rect x="900" y="303" width="55" height="27" rx="13" fill="url(#gradient)"/>
+  <text x="927" y="321" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="700">5</text>
+  
+  <!-- Column rows -->
+  <!-- Row 1: TaskName - String -->
+  <rect x="44" y="358" width="912" height="48" rx="12" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <rect x="44" y="358" width="3" height="48" rx="1.5" fill="#4fc3f7"/>
+  <rect x="60" y="370" width="24" height="24" rx="6" fill="transparent" stroke="#454545" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="72" y="387" font-family="Segoe UI, Arial" font-size="11" fill="#969696" text-anchor="middle">≡</text>
+  <text x="100" y="388" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">TaskName</text>
+  <rect x="560" y="370" width="100" height="24" rx="6" fill="#2d2d30"/>
+  <text x="610" y="387" font-family="Segoe UI, Arial" font-size="12" fill="#4fc3f7" text-anchor="middle">String</text>
+  <rect x="680" y="371" width="32" height="18" rx="9" fill="url(#gradient)"/>
+  <circle cx="700" cy="380" r="7" fill="#ffffff"/>
+  <text x="720" y="387" font-family="Segoe UI, Arial" font-size="12" fill="#cccccc">Required</text>
+  <rect x="920" y="370" width="28" height="28" rx="8" fill="transparent"/>
+  <text x="934" y="389" font-family="Segoe UI, Arial" font-size="14" fill="#969696" text-anchor="middle">×</text>
+  
+  <!-- Row 2: Description - Memo -->
+  <rect x="44" y="416" width="912" height="48" rx="12" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <rect x="44" y="416" width="3" height="48" rx="1.5" fill="#00b7c3"/>
+  <rect x="60" y="428" width="24" height="24" rx="6" fill="transparent" stroke="#454545" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="72" y="445" font-family="Segoe UI, Arial" font-size="11" fill="#969696" text-anchor="middle">≡</text>
+  <text x="100" y="446" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">Description</text>
+  <rect x="560" y="428" width="100" height="24" rx="6" fill="#2d2d30"/>
+  <text x="610" y="445" font-family="Segoe UI, Arial" font-size="12" fill="#00b7c3" text-anchor="middle">Memo</text>
+  <rect x="680" y="429" width="32" height="18" rx="9" fill="#454545"/>
+  <circle cx="692" cy="438" r="7" fill="#cccccc"/>
+  <text x="720" y="445" font-family="Segoe UI, Arial" font-size="12" fill="#cccccc">Optional</text>
+  <rect x="920" y="428" width="28" height="28" rx="8" fill="transparent"/>
+  <text x="934" y="447" font-family="Segoe UI, Arial" font-size="14" fill="#969696" text-anchor="middle">×</text>
+  
+  <!-- Row 3: DueDate - DateTime -->
+  <rect x="44" y="474" width="912" height="48" rx="12" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <rect x="44" y="474" width="3" height="48" rx="1.5" fill="#90caf9"/>
+  <rect x="60" y="486" width="24" height="24" rx="6" fill="transparent" stroke="#454545" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="72" y="503" font-family="Segoe UI, Arial" font-size="11" fill="#969696" text-anchor="middle">≡</text>
+  <text x="100" y="504" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">DueDate</text>
+  <rect x="560" y="486" width="100" height="24" rx="6" fill="#2d2d30"/>
+  <text x="610" y="503" font-family="Segoe UI, Arial" font-size="12" fill="#90caf9" text-anchor="middle">DateTime</text>
+  <rect x="680" y="487" width="32" height="18" rx="9" fill="url(#gradient)"/>
+  <circle cx="700" cy="496" r="7" fill="#ffffff"/>
+  <text x="720" y="503" font-family="Segoe UI, Arial" font-size="12" fill="#cccccc">Required</text>
+  <rect x="920" y="486" width="28" height="28" rx="8" fill="transparent"/>
+  <text x="934" y="505" font-family="Segoe UI, Arial" font-size="14" fill="#969696" text-anchor="middle">×</text>
+  
+  <!-- Row 4: Status - PickList -->
+  <rect x="44" y="532" width="912" height="48" rx="12" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <rect x="44" y="532" width="3" height="48" rx="1.5" fill="#ffe082"/>
+  <rect x="60" y="544" width="24" height="24" rx="6" fill="transparent" stroke="#454545" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="72" y="561" font-family="Segoe UI, Arial" font-size="11" fill="#969696" text-anchor="middle">≡</text>
+  <text x="100" y="562" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">Status</text>
+  <rect x="560" y="544" width="100" height="24" rx="6" fill="#2d2d30"/>
+  <text x="610" y="561" font-family="Segoe UI, Arial" font-size="12" fill="#ffe082" text-anchor="middle">PickList</text>
+  <rect x="680" y="545" width="32" height="18" rx="9" fill="url(#gradient)"/>
+  <circle cx="700" cy="554" r="7" fill="#ffffff"/>
+  <text x="720" y="561" font-family="Segoe UI, Arial" font-size="12" fill="#cccccc">Required</text>
+  <rect x="920" y="544" width="28" height="28" rx="8" fill="transparent"/>
+  <text x="934" y="563" font-family="Segoe UI, Arial" font-size="14" fill="#969696" text-anchor="middle">×</text>
+  
+  <!-- Row 5: AssignedTo - Lookup -->
+  <rect x="44" y="590" width="912" height="48" rx="12" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <rect x="44" y="590" width="3" height="48" rx="1.5" fill="#f48fb1"/>
+  <rect x="60" y="602" width="24" height="24" rx="6" fill="transparent" stroke="#454545" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="72" y="619" font-family="Segoe UI, Arial" font-size="11" fill="#969696" text-anchor="middle">≡</text>
+  <text x="100" y="620" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff">AssignedTo</text>
+  <rect x="560" y="602" width="100" height="24" rx="6" fill="#2d2d30"/>
+  <text x="610" y="619" font-family="Segoe UI, Arial" font-size="12" fill="#f48fb1" text-anchor="middle">Lookup</text>
+  <rect x="680" y="603" width="32" height="18" rx="9" fill="#454545"/>
+  <circle cx="692" cy="612" r="7" fill="#cccccc"/>
+  <text x="720" y="619" font-family="Segoe UI, Arial" font-size="12" fill="#cccccc">Optional</text>
+  <rect x="920" y="602" width="28" height="28" rx="8" fill="transparent"/>
+  <text x="934" y="621" font-family="Segoe UI, Arial" font-size="14" fill="#969696" text-anchor="middle">×</text>
+  
+  <!-- Add Column Button -->
+  <rect x="44" y="650" width="912" height="45" rx="12" fill="transparent" stroke="#454545" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="500" y="679" font-family="Segoe UI, Arial" font-size="14" fill="#cccccc" text-anchor="middle" font-weight="500">+ Add Column</text>
+  
+  <!-- Footer Actions -->
+  <rect x="0" y="720" width="1000" height="80" fill="linear-gradient(180deg, transparent, #1e1e1e)"/>
+  
+  <!-- Create Button -->
+  <rect x="24" y="735" width="170" height="44" rx="12" fill="url(#gradient)"/>
+  <text x="109" y="763" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="700">✨ Create Table</text>
+  
+  <!-- Note -->
+  <text x="220" y="763" font-family="Segoe UI, Arial" font-size="12" fill="#969696">Table will be created in your selected environment</text>
+</svg>

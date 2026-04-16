@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#744da9"/>
+      <stop offset="100%" style="stop-color:#0078d4"/>
+    </linearGradient>
+    <pattern id="headerPattern" patternUnits="userSpaceOnUse" width="60" height="60">
+      <path d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z" fill="rgba(255,255,255,0.05)"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="800" fill="#1e1e1e"/>
+  
+  <!-- Header -->
+  <rect width="600" height="70" fill="url(#gradient)"/>
+  <rect width="600" height="70" fill="url(#headerPattern)"/>
+  
+  <!-- Header icon -->
+  <rect x="16" y="15" width="40" height="40" rx="12" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="36" y="42" font-family="Segoe UI, Arial" font-size="18" fill="#ffffff" text-anchor="middle">💬</text>
+  
+  <!-- Header text -->
+  <text x="70" y="35" font-family="Segoe UI, Arial" font-size="18" fill="#ffffff" font-weight="700">AI Copilot</text>
+  <text x="70" y="52" font-family="Segoe UI, Arial" font-size="12" fill="rgba(255,255,255,0.8)">Powered by Azure OpenAI</text>
+  
+  <!-- Badge -->
+  <rect x="510" y="20" width="75" height="30" rx="15" fill="rgba(255,255,255,0.18)" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <text x="547" y="40" font-family="Segoe UI, Arial" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="700">GPT-4</text>
+  
+  <!-- Messages Area -->
+  <!-- User Message 1 -->
+  <g transform="translate(0, 90)">
+    <!-- User avatar -->
+    <circle cx="555" cy="30" r="16" fill="#0078d4"/>
+    <text x="555" y="35" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">U</text>
+    
+    <!-- User bubble -->
+    <rect x="150" y="10" width="390" height="55" rx="16" fill="url(#gradient)"/>
+    <path d="M 540 10 L 540 30 L 530 10 Z" fill="url(#gradient)"/>
+    <text x="170" y="35" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff">How do I filter a gallery by the current</text>
+    <text x="170" y="52" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff">user's department?</text>
+    
+    <text x="530" y="78" font-family="Segoe UI, Arial" font-size="10" fill="#969696" text-anchor="end">2:34 PM</text>
+  </g>
+  
+  <!-- AI Message 1 -->
+  <g transform="translate(0, 180)">
+    <!-- AI avatar -->
+    <circle cx="30" cy="30" r="16" fill="url(#gradient)"/>
+    <text x="30" y="35" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">AI</text>
+    
+    <!-- AI bubble with left accent -->
+    <rect x="55" y="10" width="430" height="150" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+    <rect x="55" y="10" width="3" height="150" rx="1.5" fill="url(#gradient)"/>
+    
+    <text x="75" y="38" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc">Great question! Use the Filter function with</text>
+    <text x="75" y="56" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc">User().Department:</text>
+    
+    <!-- Code block -->
+    <rect x="75" y="70" width="390" height="70" rx="8" fill="#1e1e1e" stroke="#454545" stroke-width="1"/>
+    <text x="90" y="95" font-family="Consolas, Monaco, monospace" font-size="12" fill="#dcdcaa">Filter(</text>
+    <text x="100" y="113" font-family="Consolas, Monaco, monospace" font-size="12" fill="#ce9178">  Employees,</text>
+    <text x="100" y="131" font-family="Consolas, Monaco, monospace" font-size="12" fill="#9cdcfe">  Department = User().Department</text>
+    <text x="90" y="149" font-family="Consolas, Monaco, monospace" font-size="12" fill="#dcdcaa">)</text>
+    
+    <text x="55" y="175" font-family="Segoe UI, Arial" font-size="10" fill="#969696">2:34 PM</text>
+  </g>
+  
+  <!-- User Message 2 -->
+  <g transform="translate(0, 350)">
+    <circle cx="555" cy="20" r="16" fill="#0078d4"/>
+    <text x="555" y="25" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">U</text>
+    
+    <rect x="250" y="0" width="290" height="40" rx="16" fill="url(#gradient)"/>
+    <text x="270" y="26" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff">Can you add sorting by name?</text>
+    
+    <text x="530" y="55" font-family="Segoe UI, Arial" font-size="10" fill="#969696" text-anchor="end">2:35 PM</text>
+  </g>
+  
+  <!-- AI Message 2 -->
+  <g transform="translate(0, 420)">
+    <circle cx="30" cy="30" r="16" fill="url(#gradient)"/>
+    <text x="30" y="35" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">AI</text>
+    
+    <rect x="55" y="10" width="430" height="165" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+    <rect x="55" y="10" width="3" height="165" rx="1.5" fill="url(#gradient)"/>
+    
+    <text x="75" y="38" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc">Of course! Wrap it with SortByColumns:</text>
+    
+    <!-- Code block -->
+    <rect x="75" y="52" width="390" height="100" rx="8" fill="#1e1e1e" stroke="#454545" stroke-width="1"/>
+    <text x="90" y="77" font-family="Consolas, Monaco, monospace" font-size="12" fill="#dcdcaa">SortByColumns(</text>
+    <text x="100" y="95" font-family="Consolas, Monaco, monospace" font-size="12" fill="#dcdcaa">  Filter(</text>
+    <text x="110" y="113" font-family="Consolas, Monaco, monospace" font-size="12" fill="#ce9178">    Employees,</text>
+    <text x="110" y="131" font-family="Consolas, Monaco, monospace" font-size="12" fill="#9cdcfe">    Department = User().Department),</text>
+    <text x="100" y="149" font-family="Consolas, Monaco, monospace" font-size="12" fill="#ce9178">  "Name", Ascending</text>
+    <text x="90" y="167" font-family="Consolas, Monaco, monospace" font-size="12" fill="#dcdcaa">)</text>
+    
+    <text x="55" y="188" font-family="Segoe UI, Arial" font-size="10" fill="#969696">2:35 PM</text>
+  </g>
+  
+  <!-- User Message 3 -->
+  <g transform="translate(0, 605)">
+    <circle cx="555" cy="20" r="16" fill="#0078d4"/>
+    <text x="555" y="25" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">U</text>
+    
+    <rect x="320" y="0" width="220" height="40" rx="16" fill="url(#gradient)"/>
+    <text x="340" y="26" font-family="Segoe UI, Arial" font-size="13" fill="#ffffff">Perfect! Thank you! 🎉</text>
+    
+    <text x="530" y="55" font-family="Segoe UI, Arial" font-size="10" fill="#969696" text-anchor="end">2:36 PM</text>
+  </g>
+  
+  <!-- AI Message 3 -->
+  <g transform="translate(0, 665)">
+    <circle cx="30" cy="20" r="16" fill="url(#gradient)"/>
+    <text x="30" y="25" font-family="Segoe UI, Arial" font-size="12" fill="#ffffff" text-anchor="middle">AI</text>
+    
+    <rect x="55" y="0" width="350" height="50" rx="16" fill="#252526" stroke="#454545" stroke-width="1"/>
+    <rect x="55" y="0" width="3" height="50" rx="1.5" fill="url(#gradient)"/>
+    
+    <text x="75" y="22" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc">You're welcome! Let me know if you</text>
+    <text x="75" y="40" font-family="Segoe UI, Arial" font-size="13" fill="#cccccc">need any more help with PowerFx!</text>
+  </g>
+  
+  <!-- Input Area -->
+  <rect x="0" y="730" width="600" height="70" fill="#252526"/>
+  <rect x="0" y="730" width="600" height="1" fill="#454545"/>
+  
+  <!-- Input box -->
+  <rect x="16" y="745" width="490" height="40" rx="16" fill="#2d2d30" stroke="#454545" stroke-width="1"/>
+  <text x="32" y="770" font-family="Segoe UI, Arial" font-size="14" fill="#969696">Ask about PowerFx, patterns, or best practices...</text>
+  
+  <!-- Send button -->
+  <rect x="520" y="745" width="64" height="40" rx="12" fill="url(#gradient)"/>
+  <text x="552" y="770" font-family="Segoe UI, Arial" font-size="14" fill="#ffffff" text-anchor="middle">Send</text>
+  
+  <!-- Hint text -->
+  <text x="300" y="795" font-family="Segoe UI, Arial" font-size="11" fill="#969696" text-anchor="middle">Press Enter to send, Shift+Enter for new line</text>
+</svg>
